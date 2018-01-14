@@ -1,0 +1,85 @@
+:q
+maximum [5,3,7,2,8]
+:l maxrecur
+:l maxrecur
+fib 5
+fib 4
+:l fib
+:l fib
+:l fib
+:l fib
+(let a = 100;b = 200; c = 300 in a*b*c, let foo="Hey"; bar = "there!" in foo ++ bar)
+(let a = 100;b = 200; c = 300 in a*b*c, let foo="Hey"; bar = "there!" in foo + bar)
+(let a = 100;b = 200; c = 300 in a*b*c, let foo="Hey"; bar - "there!" in foo + bar)
+(let a = 100;b = 200; c = 300 in a*b*c,
+[let square x = x*x in (square 5, square 3, square 2)]
+initials "Chris" "Orsini"
+:l initials
+initials "Chris" "Orsini"
+initials Chris Orsini
+:l initials
+:l initials
+:l initials
+bmiTell 100 68
+:l max
+:l bmiTell
+:r bmiTell
+:r bmiTell
+bmi 20.0
+bmi 20
+:l bmiTell
+:l bmiTell
+:l bmiTell
+:l bmiTell
+:l bmiTell
+:l bmiTell
+sum [1,2,3,4,5,6,7]
+:l sum
+:l sum
+length "Hello world"
+length [1,2,3,4,5,6]
+:l listlenght
+:l listlength
+head "hello"
+head [1,2,3,4]
+head
+head []
+:l head
+:q
+exit
+:h
+factorial 9
+factorial 4
+factorial 3
+factorial 2
+factorial 0
+:l factorial
+;l factorial
+;l factorial.hs
+:q
+:q
+\q
+;q
+factorial 3
+let factorial n = n * factorial(n - 1)
+factorial 4
+let factorial n = n * factorial (n - 1)
+let factorial 0 = 1
+let factorial::(Integral a)=>a->a
+let factorial::(Integral a) => a -> a
+let factorial :: (Integral a) => a -> a
+compare 5 3
+5 `compare` 3
+:q
+:t (==)
+:t fst
+:q
+:?
+:/
+?
+help
+exit
+quit()
+quit
+print a
+a = "hello"
