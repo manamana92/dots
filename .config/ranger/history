@@ -1,0 +1,13 @@
+open_with
+ 
+make dir
+mkdir
+mkdir Complexity
+mkdir quantumcomputing
+mkdir complexity
+mkdir zeroknowledge
+mkdir crypto
+wq
+open_with 
+open_with vim
+ope
