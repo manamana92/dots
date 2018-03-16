@@ -1,5 +1,6 @@
-execute pathogen#infect()
-
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
@@ -19,6 +20,8 @@ set hlsearch
 
 syntax on
 filetype plugin indent on
+set grepprg=grep\ -nH\ $*
+let g:tex_flavor = "latex"
 
 autocmd FileType c map <C-K> :pyf /usr/share/clang/clang-format.py<cr>
 autocmd FileType c imap <C-K> <c-o>:pyf /usr/share/clang/clang-format.py<cr>
